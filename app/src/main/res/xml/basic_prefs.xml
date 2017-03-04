@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Category 1">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Is this a Check Box"
+            android:key="pref_1"
+            android:summary="Question: Is this a Check Box"
+            android:icon="@drawable/ic_satellite"
+            android:summaryOn="@string/action_search_text"
+            android:summaryOff="It's not checked" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Is this a Check Box 2"
+            android:key="pref_2"
+            android:dependency="pref_1"
+            android:summary="Question: Is this a Check Box"
+            android:icon="@drawable/ic_satellite"
+            android:summaryOn="@string/action_search_text"
+            android:summaryOff="2 is not checked"
+            android:backgroundTint="@android:color/white"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Category 2">
+
+        <EditTextPreference
+            android:defaultValue="Name 1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="What's your name"
+            android:key="pref_3"
+            android:dialogIcon="@drawable/ic_search"
+            android:dependency="pref_1" />
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="1"
+        android:title="List preference"
+        android:entries="@array/pref_list"
+        android:entryValues="@array/pref_list"
+        android:key="pref_4" />
+    <MultiSelectListPreference
+        android:title="Multi select list preference"
+        android:defaultValue="@array/pref_list"
+        android:entries="@array/pref_list"
+        android:entryValues="@array/pref_list"
+        android:key="pref_5" />
+</PreferenceScreen>
