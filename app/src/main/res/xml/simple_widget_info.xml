@@ -1,0 +1,8 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:initialLayout="@layout/widget_usb_tether"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:previewImage="@mipmap/ic_launcher"
+    android:updatePeriodMillis="1800000"/>

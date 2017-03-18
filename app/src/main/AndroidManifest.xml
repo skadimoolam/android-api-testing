@@ -74,6 +74,13 @@
             android:name=".BatteryBluetoothActivity"
             android:parentActivityName=".MainActivity" />
 
+        <receiver android:label="USB Tether" android:name=".widget.UsbTetherWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/simple_widget_info"/>
+        </receiver>
+
         <receiver
             android:name=".receiver.BatteryLevelReceiver"
             android:enabled="true">
