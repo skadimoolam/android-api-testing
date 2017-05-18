@@ -8,12 +8,10 @@ import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import dev.adi.testapp.adapter.TodoListAdapter;
 import dev.adi.testapp.model.TodoItem;
 
 public class TodoDataSource {

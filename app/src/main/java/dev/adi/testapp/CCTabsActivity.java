@@ -2,9 +2,9 @@ package dev.adi.testapp;
 
 import android.graphics.Color;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.customtabs.CustomTabsIntent;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 
 public class CCTabsActivity extends AppCompatActivity {

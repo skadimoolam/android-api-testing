@@ -1,8 +1,8 @@
 package dev.adi.testapp;
 
+import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class PrefsActivity extends AppCompatActivity {
 

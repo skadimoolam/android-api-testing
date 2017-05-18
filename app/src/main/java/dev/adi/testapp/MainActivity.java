@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
+import dev.adi.testapp.weather.WeatherReportActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private LinearLayout llButtonHost;
@@ -19,11 +21,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         llButtonHost = (LinearLayout) findViewById(R.id.button_host);
+        addNewButton("Weather Report", WeatherReportActivity.class);
         addNewButton("Scheduled Notification", NotiScheduleActivity.class);
         addNewButton("Schedule in Calender", CalenderScheduleActivity.class);
         addNewButton("QR Scanner", QRActivity.class);
+        addNewButton("CalDroid Activity", CaldroidActivity.class);
+        addNewButton("Sensor List", SensorListActivity.class);
+        addNewButton("Html TextView", HtmlTextViewActivity.class);
+        addNewButton("Image Gallery", ImageGalleryActivity.class);
         addNewButton("Todo List", TodoActivity.class);
-        addNewButton("BAttery Bluetooth", BatteryBluetoothActivity.class);
+        addNewButton("Battery Bluetooth", BatteryBluetoothActivity.class);
+        addNewButton("Usb Tether", UsbTetherActivity.class);
         addNewButton("Pref Layout", PrefsActivity.class);
         addNewButton("Contacts Lookup", ContactsActivity.class);
         addNewButton("Toobar Search", SearchBarActivity.class);

@@ -2,10 +2,9 @@ package dev.adi.testapp;
 
 import android.databinding.BaseObservable;
 import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 import dev.adi.testapp.databinding.ActivityDataBindingBinding;
 

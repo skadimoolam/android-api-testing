@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a1f1ff"
+    android:padding="6dp"
+    android:id="@+id/rl_activity_root">
+
+    <ImageView
+        android:id="@+id/iv_refresh"
+        android:background="?attr/selectableItemBackground"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_refresh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_temp_main"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="90sp"
+        android:textColor="@android:color/black"
+        android:text="0.0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="50sp"
+        android:textColor="@android:color/black"
+        android:text="o"
+        android:layout_alignTop="@+id/tv_temp_main"
+        android:layout_toRightOf="@+id/tv_temp_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"/>
+
+    <TextView
+        android:id="@+id/tv_temp_apparent"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:text="0.0"
+        android:layout_above="@+id/tv_temp_main"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="o"
+        android:layout_alignTop="@+id/tv_temp_apparent"
+        android:layout_toRightOf="@+id/tv_temp_apparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:text="Summary"
+        android:id="@+id/tv_summary"
+        android:layout_above="@+id/tv_temp_apparent"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginBottom="10dp"
+        android:scaleType="center"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/ic_wea_sun"
+        android:id="@+id/iv_img_main"
+        android:layout_above="@+id/tv_summary"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="top|right"
+        android:rotation="90"
+        android:textAllCaps="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+</RelativeLayout>

@@ -3,18 +3,13 @@ package dev.adi.testapp;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
-import android.provider.Contacts;
+import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
-
-import java.net.URI;
 
 import dev.adi.testapp.adapter.ContactListAdapter;
 

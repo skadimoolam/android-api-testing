@@ -3,8 +3,8 @@ package dev.adi.testapp;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -12,8 +12,6 @@ import com.flipkart.android.proteus.builder.DataAndViewParsingLayoutBuilder;
 import com.flipkart.android.proteus.builder.LayoutBuilderFactory;
 import com.flipkart.android.proteus.toolbox.Styles;
 import com.flipkart.android.proteus.view.ProteusView;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 

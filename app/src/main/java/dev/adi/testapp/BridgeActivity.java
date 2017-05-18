@@ -13,8 +13,6 @@ import com.afollestad.bridge.Response;
 import com.afollestad.bridge.ResponseConvertCallback;
 import com.afollestad.json.Ason;
 
-import org.json.JSONObject;
-
 public class BridgeActivity extends AppCompatActivity {
 
     private LinearLayout parentLayout;

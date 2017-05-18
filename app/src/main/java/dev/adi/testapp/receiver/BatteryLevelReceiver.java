@@ -3,11 +3,8 @@ package dev.adi.testapp.receiver;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.BatteryManager;
-import android.util.Log;
 import android.widget.Toast;
 
-import dev.adi.testapp.AsonActivity;
 import dev.adi.testapp.BatteryBluetoothActivity;
 
 public class BatteryLevelReceiver extends BroadcastReceiver {
